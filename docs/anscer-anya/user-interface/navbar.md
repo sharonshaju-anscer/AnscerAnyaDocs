@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # Navbar
 
-The ANSCER ANYA user interface features a top navigation bar that provides convenient access to key functionalities and important information.
+The ANSCER user interface features a top navigation bar that provides convenient access to key functionalities and important information.
 
 Here is a comprehensive description of the elements present in the top navigation bar:
 
 ## Mission Feedback
 
-The Mission Feedback feature in ANSCER ANYA provides real-time information about the status and progress of ongoing robot missions. It offers valuable insights into the current robot activities and allows users to monitor and manage them effectively. Here is a comprehensive description of the elements and functionalities available in the **Mission Feedback** section
+The Mission Feedback feature in ANSCER provides real-time information about the status and progress of ongoing robot missions. It offers valuable insights into the current robot activities and allows users to monitor and manage them effectively. Here is a comprehensive description of the elements and functionalities available in the **Mission Feedback** section
 
 ### Running Mission
 
@@ -30,7 +30,7 @@ The Mission Feedback feature in ANSCER ANYA provides real-time information about
 
 ### Types of Tasks and Their Statuses
 
-- ANSCER ANYA allows the execution of various types of tasks, such as movement, process, interaction ect.
+- ANSCER allows the execution of various types of tasks, such as movement, process, interaction ect.
 - The Mission Feedback section displays the different types of tasks involved in the current mission.
 - It also indicates the status of each task, such as "In Progress," or "Completed,".
 

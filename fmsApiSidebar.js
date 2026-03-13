@@ -7,10 +7,10 @@ module.exports = {
     },
     {
       type: "category",
-      label: "ANSCER ANYA FMS API",
+      label: "ANSCER FMS REST API",
       link: {
         type: "generated-index",
-        title: "ANSCER ANYA FMS API",
+        title: "ANSCER FMS REST API",
       },
       collapsed: false,
       items: (() => {

@@ -6,7 +6,7 @@ import {MissionTaskChip,MissionTaskList} from "@site/src/components/LottieIcon";
 
 # Dashboard
 
-Here we will be exploring the **Mission Creator** interface of ANSCER ANYA. It covers the various tools, controls, and features available to users for mission creation. We will learn how to navigate and understand its different elements to make the most out of the mission creation process.
+Here we will be exploring the **Mission Creator** interface of ANSCER. It covers the various tools, controls, and features available to users for mission creation. We will learn how to navigate and understand its different elements to make the most out of the mission creation process.
 
 Mission creator dashboard consists of the following components:
 

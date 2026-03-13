@@ -9,7 +9,7 @@ const FeatureList = [
     id: "easyToManage",
     description: (
       <>
-        ANSCER ANYA simplifies the management of your ANSCER ROBOTs and Fleet.
+        ANSCER simplifies the management of your ANSCER ROBOTs and Fleet.
         Its user-friendly interface and intuitive controls make it effortless to
         oversee and coordinate your material transport operations. With
         streamlined management, you can allocate resources more efficiently and
@@ -22,7 +22,7 @@ const FeatureList = [
     id: "focusOnWhatMatters",
     description: (
       <>
-        By automating material transport tasks with ANSCER ANYA, your team can
+        By automating material transport tasks with ANSCER, your team can
         redirect their focus towards more strategic and value-added activities.
         Let the software handle repetitive, time-consuming tasks, allowing your
         workforce to concentrate on tasks that drive innovation and growth.
@@ -34,7 +34,7 @@ const FeatureList = [
     id: "developerFriendly",
     description: (
       <>
-        ANSCER ANYA provides developer-friendly features and interfaces,
+        ANSCER provides developer-friendly features and interfaces,
         allowing customization and integration with your existing systems and
         workflows. Developers can leverage APIs and tools to extend the
         capabilities of the software, tailor it to specific needs, and
@@ -47,7 +47,7 @@ const FeatureList = [
     id: "scalableSolution",
     description: (
       <>
-        ANSCER ANYA is designed to grow with your business. Its scalability
+        ANSCER is designed to grow with your business. Its scalability
         ensures that it can adapt to increasing demands, whether you need to
         manage a small fleet of ANSCER ROBOTS or scale up to handle larger
         material transport operations. The solution evolves alongside your
@@ -60,7 +60,7 @@ const FeatureList = [
     id: "enhancedSafetyMeasures",
     description: (
       <>
-        ANSCER ANYA prioritizes safety throughout the material transport
+        ANSCER prioritizes safety throughout the material transport
         process. It incorporates advanced safety features such as obstacle
         detection, collision avoidance, and emergency stop mechanisms to ensure
         the well-being of both your workforce and assets. This emphasis on
@@ -75,7 +75,7 @@ const FeatureList = [
     description: (
       <>
         Gain valuable real-time insights into your material transport processes.
-        ANSCER ANYA provides detailed analytics and reporting, allowing you to
+        ANSCER provides detailed analytics and reporting, allowing you to
         make data-driven decisions, optimize routes, and identify areas for
         improvement, ultimately enhancing efficiency and reducing costs.
       </>

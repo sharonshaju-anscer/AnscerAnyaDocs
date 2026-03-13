@@ -12,7 +12,7 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">ANSCER ROBOTICS - ANSCER ANYA</h1>
+        <h1 className="hero__title">ANSCER ROBOTICS - ANSCER</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/docs/">
@@ -31,12 +31,12 @@ function Hero() {
           <div className={clsx(styles.relative, "row")}>
             <div className="col">
               <h1 className={styles.tagline}>
-                ANSCER ANYA,
+                ANSCER,
                 <br /> Robot management <br />
                 software for AMRs
               </h1>
               <h1 className={styles.tagline}>
-                ANSCER ANYA, <br />
+                ANSCER, <br />
                 <span>Robot </span>management <br />
                 software for <span>AMRs</span>
               </h1>
@@ -79,7 +79,7 @@ export default function Home() {
   return (
     <Layout
       title={siteConfig.title}
-      description="ANSCER ANYA is a software solution designed to manage and automate material transport in warehouses and industries for ANSCER ROBOTS. This is designed to provide organizations/individuals with full visibility and control over their ANSCER ROBOTS, enabling them to streamline their material transport operations, reduce manual labor, and improve overall efficiency. The solution is highly scalable and customizable, allowing organizations to tailor it to their specific needs. With ANSCER ANYA, organizations can optimize their material transport processes and maximize the productivity of their ANSCER ROBOTS."
+      description="ANSCER is a software solution designed to manage and automate material transport in warehouses and industries for ANSCER ROBOTS. This is designed to provide organizations/individuals with full visibility and control over their ANSCER ROBOTS, enabling them to streamline their material transport operations, reduce manual labor, and improve overall efficiency. The solution is highly scalable and customizable, allowing organizations to tailor it to their specific needs. With ANSCER, organizations can optimize their material transport processes and maximize the productivity of their ANSCER ROBOTS."
     >
       <Hero />
       <HomepageFeatures />

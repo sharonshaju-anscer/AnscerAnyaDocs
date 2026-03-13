@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Joystick
 
-A joystick is a component in ANSCER ANYA that provides manual control for navigating the robot. It allows users to manipulate the robot's movements manually, providing a hands-on way to guide the robot's actions and direction within its operational environment.
+A joystick is a component in ANSCER that provides manual control for navigating the robot. It allows users to manipulate the robot's movements manually, providing a hands-on way to guide the robot's actions and direction within its operational environment.
 
 import Joystick, {JoystickBtn} from "@site/src/components/Joystick";
 

@@ -7,10 +7,10 @@ module.exports = {
     },
     {
       type: "category",
-      label: "ANSCER ANYA API",
+      label: "ANSCER API",
       link: {
         type: "generated-index",
-        title: "ANSCER ANYA API",
+        title: "ANSCER API",
       },
       collapsed: false,
       items: (() => {

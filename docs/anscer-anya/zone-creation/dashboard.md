@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Dashboard
 
-Here we will be exploring the **Zone Creator** interface of ANSCER ANYA. It covers the various tools, controls, and features available to users for zone creation. We will learn how to navigate and understand its different elements to make the most out of the zone creation process.
+Here we will be exploring the **Zone Creator** interface of ANSCER. It covers the various tools, controls, and features available to users for zone creation. We will learn how to navigate and understand its different elements to make the most out of the zone creation process.
 
 Zone creator dashboard consists of the following components:
 

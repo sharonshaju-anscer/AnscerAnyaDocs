@@ -1,8 +1,8 @@
 {
 	"openapi": "3.0.0",
 	"info": {
-		"title": "ANSCER ANYA API",
-		"description": "ANSCER ANYA is a software solution designed to manage and automate material transport in warehouses and industries for ANSCER ROBOTS. This is designed to provide organizations/individuals with full visibility and control over their ANSCER ROBOTS, enabling them to streamline their material transport operations, reduce manual labor, and improve overall efficiency. The solution is highly scalable and customizable, allowing organizations to tailor it to their specific needs. With ANSCER ANYA, organizations can optimize their material transport processes and maximize the productivity of their ANSCER ROBOTS.",
+		"title": "ANSCER API",
+		"description": "ANSCER is a software solution designed to manage and automate material transport in warehouses and industries for ANSCER ROBOTS. This is designed to provide organizations/individuals with full visibility and control over their ANSCER ROBOTS, enabling them to streamline their material transport operations, reduce manual labor, and improve overall efficiency. The solution is highly scalable and customizable, allowing organizations to tailor it to their specific needs. With ANSCER, organizations can optimize their material transport processes and maximize the productivity of their ANSCER ROBOTS.",
 		"version": "1.0.0",
 		"contact": {
 			"name": "API Support",
@@ -18,17 +18,17 @@
 				"host": {
 					"enum": ["localhost"],
 					"default": "localhost",
-					"description": "The ANSCER ANYA API server host name."
+					"description": "The ANSCER API server host name."
 				},
 				"port": {
 					"enum": ["80", "443", "5002"],
 					"default": "80",
-					"description": "The ANSCER ANYA API server port."
+					"description": "The ANSCER API server port."
 				},
 				"version": {
 					"enum": ["v1"],
 					"default": "v1",
-					"description": "The ANSCER ANYA API version."
+					"description": "The ANSCER API version."
 				}
 			}
 		}
@@ -44,10 +44,10 @@
 				"security": [],
 				"operationId": "apiHome",
 				"summary": "API Home",
-				"description": "Home Route of ANSCER ANYA API",
+				"description": "Home Route of ANSCER API",
 				"responses": {
 					"200": {
-						"description": "Welcome to Anscer Robotics ANYA - AMR's Server."
+						"description": "Welcome to Anscer Robotics - AMR's Server."
 					}
 				},
 				"tags": ["Home"]
@@ -58,7 +58,7 @@
 			"post": {
 				"operationId": "login",
 				"summary": "Login",
-				"description": "The Login request allows users to authenticate themselves with ANSCER ANYA by providing their email address and password. This request does not require any additional parameters and can be accessed by any unauthenticated user.\n\nTo use this request, you need to provide your email address and password to ANSCER ANYA and send the request to the API endpoint. Once the request is sent, ANSCER ANYA will verify your credentials and return a JSON Web Token (JWT) that can be used to authenticate subsequent requests.",
+				"description": "The Login request allows users to authenticate themselves with ANSCER by providing their email address and password. This request does not require any additional parameters and can be accessed by any unauthenticated user.\n\nTo use this request, you need to provide your email address and password to ANSCER and send the request to the API endpoint. Once the request is sent, ANSCER will verify your credentials and return a JSON Web Token (JWT) that can be used to authenticate subsequent requests.",
 				"security": [],
 				"requestBody": {
 					"required": true,
@@ -107,7 +107,7 @@
 			"get": {
 				"operationId": "getAllUsers",
 				"summary": "Get a list of users",
-				"description": "The Get All Users request allows you to retrieve a list of all users registered in ANSCER ANYA. This request can be accessed by authenticated admin users only and does not require any additional parameters.",
+				"description": "The Get All Users request allows you to retrieve a list of all users registered in ANSCER. This request can be accessed by authenticated admin users only and does not require any additional parameters.",
 				"responses": {
 					"200": {
 						"description": "A list of users",
@@ -136,7 +136,7 @@
 			},
 			"post": {
 				"operationId": "createUser",
-				"description": "The Create User request allows you to create a new user account for ANSCER ANYA. This request takes in a JSON object in the request body that includes the user's name, email, password, and role.",
+				"description": "The Create User request allows you to create a new user account for ANSCER. This request takes in a JSON object in the request body that includes the user's name, email, password, and role.",
 				"summary": "Create a new user",
 				"requestBody": {
 					"required": true,
@@ -182,7 +182,7 @@
 			"get": {
 				"operationId": "getCurrentUser",
 				"summary": "Get current user",
-				"description": "The Get current user request allows you to retrieve information about the currently logged in user in ANSCER ANYA. This request does not require any additional parameters, and will return a JSON object containing information about the user, including their name, email, and role.",
+				"description": "The Get current user request allows you to retrieve information about the currently logged in user in ANSCER. This request does not require any additional parameters, and will return a JSON object containing information about the user, including their name, email, and role.",
 				"responses": {
 					"200": {
 						"description": "User details",
@@ -221,7 +221,7 @@
 			],
 			"post": {
 				"operationId": "resetPassword",
-				"description": "Reset Password allows an authorized user to reset the password for a specific user in ANSCER ANYA. This request takes the user's unique ID as a parameter and requires the authorization password (authPassword) of the authorized user who has access to reset passwords. A new password (newPassword) for the target user is provided in the request body, and this request resets the user's password.",
+				"description": "Reset Password allows an authorized user to reset the password for a specific user in ANSCER. This request takes the user's unique ID as a parameter and requires the authorization password (authPassword) of the authorized user who has access to reset passwords. A new password (newPassword) for the target user is provided in the request body, and this request resets the user's password.",
 				"summary": "Reset Password",
 				"requestBody": {
 					"required": true,
@@ -275,7 +275,7 @@
 			"get": {
 				"operationId": "getUserById",
 				"summary": "Get a user by ID",
-				"description": "The Get User request allows you to retrieve information about a specific user in ANSCER ANYA. This request takes in the user's unique ID as a parameter, and returns a JSON object containing information about the user, including their name, email, and role.",
+				"description": "The Get User request allows you to retrieve information about a specific user in ANSCER. This request takes in the user's unique ID as a parameter, and returns a JSON object containing information about the user, including their name, email, and role.",
 				"responses": {
 					"200": {
 						"description": "User details",
@@ -348,7 +348,7 @@
 			"delete": {
 				"operationId": "deleteUserById",
 				"summary": "Delete a user by ID",
-				"description": "The Remove User request allows you to remove a user from ANSCER ANYA. This request takes in the user's unique ID as a parameter, and will permanently delete the user's account and all associated data from the ANSCER ANYA database.",
+				"description": "The Remove User request allows you to remove a user from ANSCER. This request takes in the user's unique ID as a parameter, and will permanently delete the user's account and all associated data from the ANSCER database.",
 				"responses": {
 					"200": {
 						"description": "User deleted",
@@ -586,7 +586,7 @@
 			],
 			"post": {
 				"operationId": "loadMap",
-				"description": "The Load Map in Robot request allows authenticated users to load a map into an ANSCER ROBOT. This request can only be accessed by users with the appropriate permissions, such as an administrator or developer.\n\nTo use this request, you need to provide the map's ID in the request URL.\n\nOnce ANSCER ANYA receives the request, it will verify that the specified map exist in the system and are compatible to load. If everything checks out, desired map will be loaded in the robot, which will then begin using it for navigation and other tasks.\n\nIt's important to note that loading a map into a robot may take some time, depending on the size of the map and the speed of the robot's network connection.\n\nThis request is useful for loading maps into ANSCER ROBOTS, such as when a robot needs to navigate a new facility or warehouse. It's important to ensure that the map being loaded is related to that particular environment",
+				"description": "The Load Map in Robot request allows authenticated users to load a map into an ANSCER ROBOT. This request can only be accessed by users with the appropriate permissions, such as an administrator or developer.\n\nTo use this request, you need to provide the map's ID in the request URL.\n\nOnce ANSCER receives the request, it will verify that the specified map exist in the system and are compatible to load. If everything checks out, desired map will be loaded in the robot, which will then begin using it for navigation and other tasks.\n\nIt's important to note that loading a map into a robot may take some time, depending on the size of the map and the speed of the robot's network connection.\n\nThis request is useful for loading maps into ANSCER ROBOTS, such as when a robot needs to navigate a new facility or warehouse. It's important to ensure that the map being loaded is related to that particular environment",
 				"summary": "Load Map in Roobt",
 				"responses": {
 					"200": {
@@ -654,7 +654,7 @@
 			"get": {
 				"operationId": "getAllWaypoints",
 				"summary": "Get a list of waypoints",
-				"description": "The Get All Waypoints request allows users to retrieve a list of all the waypoints that are associated with the current active map in ANSCER ROBOT.\n\nTo use this request, you need to send a GET request to the API endpoint. ANSCER ANYA will then retrieve a list of all waypoints that are currently available in active Map and return them in the response body in JSON format.",
+				"description": "The Get All Waypoints request allows users to retrieve a list of all the waypoints that are associated with the current active map in ANSCER ROBOT.\n\nTo use this request, you need to send a GET request to the API endpoint. ANSCER will then retrieve a list of all waypoints that are currently available in active Map and return them in the response body in JSON format.",
 				"responses": {
 					"200": {
 						"description": "A list of waypoints",
@@ -770,7 +770,7 @@
 			"put": {
 				"operationId": "updateWaypointById",
 				"summary": "Update a waypoint by ID",
-				"description": "The Update Waypoint request allows you to update the information of an existing waypoint for current Active Map in ANSCER ANYA. This request takes in the waypoint's unique ID as a parameter, as well as any updated waypoint information in the form of a JSON object. This request can be used to update a waypoint's name, and category, dockMarker, and/or location.",
+				"description": "The Update Waypoint request allows you to update the information of an existing waypoint for current Active Map in ANSCER. This request takes in the waypoint's unique ID as a parameter, as well as any updated waypoint information in the form of a JSON object. This request can be used to update a waypoint's name, and category, dockMarker, and/or location.",
 				"requestBody": {
 					"required": true,
 					"content": {
@@ -976,7 +976,7 @@
 			"put": {
 				"operationId": "updateZoneById",
 				"summary": "Update a zone by ID",
-				"description": "The Update Zone request allows you to update the information of an existing zone for current Active Map in ANSCER ANYA. This request takes in the zone's unique ID as a parameter, as well as any updated zone information in the form of a JSON object. This request can be used to update a zone's name, and category, and/or geometry coordinates.",
+				"description": "The Update Zone request allows you to update the information of an existing zone for current Active Map in ANSCER. This request takes in the zone's unique ID as a parameter, as well as any updated zone information in the form of a JSON object. This request can be used to update a zone's name, and category, and/or geometry coordinates.",
 				"requestBody": {
 					"required": true,
 					"content": {
@@ -1214,7 +1214,7 @@
 			"put": {
 				"operationId": "updateMissionById",
 				"summary": "Update a mission by ID",
-				"description": "The Update Mission request allows you to update the information of an existing mission for current Active Map in ANSCER ANYA. This request takes in the mission's unique ID as a parameter, as well as any updated mission information in the form of a JSON object. This request can be used to update a mission's name, and iteration, and/or its tasks.",
+				"description": "The Update Mission request allows you to update the information of an existing mission for current Active Map in ANSCER. This request takes in the mission's unique ID as a parameter, as well as any updated mission information in the form of a JSON object. This request can be used to update a mission's name, and iteration, and/or its tasks.",
 				"requestBody": {
 					"required": true,
 					"content": {

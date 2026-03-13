@@ -4,13 +4,13 @@ sidebar_position: 2
 
 # Sidebar
 
-The ANSCER ANYA user interface includes a Sidebar Menu that provides convenient access to various sections and functionalities of the application.
+The ANSCER user interface includes a Sidebar Menu that provides convenient access to various sections and functionalities of the application.
 
 Here is a comprehensive description of the options available in the Sidebar:
 
 ## Create
 
-The Create option allows users to create and manage all the resources in ANSCER ANYA, as: **Maps**, **Waypoints**, **Zones**, **Missions**, **Users**, for the ANSCER Robots.
+The Create option allows users to create and manage all the resources in ANSCER, as: **Maps**, **Waypoints**, **Zones**, **Missions**, **Users**, for the ANSCER Robots.
 
 Clicking on the Create option opens a sub menu with appropriate options, where users can create or manage resources for Robot.
 
@@ -22,7 +22,7 @@ Maps help the robot navigate autonomously, plan efficient paths, and avoid colli
 
 ### Zones
 
-In the context of Anscer ANYA, zones refer to specific areas or regions within a map that are defined for different purposes or characteristics. A zone can be thought of as a designated space with a specific set of attributes or properties assigned to it.
+In the context of ANSCER, zones refer to specific areas or regions within a map that are defined for different purposes or characteristics. A zone can be thought of as a designated space with a specific set of attributes or properties assigned to it.
 
 Robots can detect and respond to zone boundaries or triggers. Depending on the zone type, the robot may adjust its behavior, issue warnings, change speed, or avoid restricted areas.
 
@@ -36,7 +36,7 @@ A mission typically involves a sequence of tasks that the robot needs to execute
 
 ### Users
 
-The Users option provides functionality for managing user accounts within ANSCER ANYA.
+The Users option provides functionality for managing user accounts within ANSCER.
 
 Users with appropriate permissions can create, edit, and manage user accounts for individuals accessing the application.
 
@@ -68,9 +68,9 @@ These settings are specifically related to the ANSCER Robots and their interacti
 
 ## Help
 
-- The Help option provides access to the ANSCER ANYA Help Center, where users can find detailed documentation and resources related to the application.
+- The Help option provides access to the ANSCER Help Center, where users can find detailed documentation and resources related to the application.
 - Clicking on the Help option opens a help center, knowledge base, or a dedicated support page here users can find answers to their queries, access tutorials, or seek assistance from the ANSCER support team.
-- This option ensures that users have the necessary resources and guidance to effectively use the ANSCER ANYA application.
+- This option ensures that users have the necessary resources and guidance to effectively use the ANSCER application.
 
 This section contains the following detalied information:
 

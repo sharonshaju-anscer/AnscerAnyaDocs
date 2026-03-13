@@ -1,12 +1,12 @@
 ---
-description: ANSCER ANYA FMS api Introduction
+description: ANSCER FMS api Introduction
 slug: /
 sidebar_position: 1
 ---
 
 # Introduction
 
-ANSCER ANYA FMS offers a range of capabilities you can access through the REST APIs. These REST APIs are designed in accordance with open API standards, which ensure that the platform's features can be integrated with other applications and systems. By utilizing these APIs, you can tap into the platform's capabilities through programmatic methods. Use the APIs to build custom integrations and workflows that leverage the power of the ANSCER ANYA.
+ANSCER FMS offers a range of capabilities you can access through the REST APIs. These REST APIs are designed in accordance with open API standards, which ensure that the platform's features can be integrated with other applications and systems. By utilizing these APIs, you can tap into the platform's capabilities through programmatic methods. Use the APIs to build custom integrations and workflows that leverage the power of the ANSCER.
 
 ## Paths
 
@@ -14,22 +14,22 @@ Every API's URI has the prefix of the version and the resource, such as: `/api/v
 
 ## Authentication
 
-ANSCER ANYA FMS supports API key user authentication:
+ANSCER FMS supports API key user authentication:
 
 ### API Key
 
-ANSCER ANYA uses API keys to provide secure API authentication and authorization. This enables the usage of ANSCER ANYA APIs without requiring user credentials such as username and password. The API key must be present in individual API requests in order to authenticate and authorize the request. The API Key is passed as part of the HTTP request header and in the following format:
+ANSCER uses API keys to provide secure API authentication and authorization. This enables the usage of ANSCER APIs without requiring user credentials such as username and password. The API key must be present in individual API requests in order to authenticate and authorize the request. The API Key is passed as part of the HTTP request header and in the following format:
 
 - Key: **x-auth-token**
-- Value: API key copied after Login in the ANSCER ANYA platform. E.g. `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzVhYzY0ZmZlYzBjMDUwNDM1NjIzZWUiLCJuYW1lIjoiQXNod2FuZWUgS3VtYXIgR3VwdGEiLCJlbWFpbCI6ImFzaHdhbmVlQGFuc2Nlci5jb20iLCJyb2xlIjoiZGV2ZWxvcGVyIiwiaWF0IjoxNjk2OTI5ODc2LCJleHAiOjE2OTc1MzQ2NzZ9.nmlheIA3JJm_rPy-GMlYLT94fDNWiIpJaRMlRWgZtgE`
+- Value: API key copied after Login in the ANSCER platform. E.g. `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzVhYzY0ZmZlYzBjMDUwNDM1NjIzZWUiLCJuYW1lIjoiQXNod2FuZWUgS3VtYXIgR3VwdGEiLCJlbWFpbCI6ImFzaHdhbmVlQGFuc2Nlci5jb20iLCJyb2xlIjoiZGV2ZWxvcGVyIiwiaWF0IjoxNjk2OTI5ODc2LCJleHAiOjE2OTc1MzQ2NzZ9.nmlheIA3JJm_rPy-GMlYLT94fDNWiIpJaRMlRWgZtgE`
 
 ## Requests
 
-All requests to ANSCER ANYA's API should be in the `JSON` format. When making requests, ensure that you adhere to the following guidelines:
+All requests to ANSCER's API should be in the `JSON` format. When making requests, ensure that you adhere to the following guidelines:
 
 ### HTTP Methods
 
-The ANSCER ANYA API supports the following HTTP methods for making requests:
+The ANSCER API supports the following HTTP methods for making requests:
 
 | HTTP Method | Description                                                                                                                          |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -53,7 +53,7 @@ The API returns standard HTTP response codes:
 
 ### Request Headers
 
-When sending requests to the ANSCER ANYA API, include the following headers to ensure proper communication:
+When sending requests to the ANSCER API, include the following headers to ensure proper communication:
 
 - **Content-Type**: Set the `Content-Type` header to `application/json` to indicate that the request payload is in JSON format.
 
@@ -61,7 +61,7 @@ When sending requests to the ANSCER ANYA API, include the following headers to e
 
 ### Request Parameters
 
-Requests to ANSCER ANYA's API may require specific parameters to be included in the request payload or query string. The required parameters vary depending on the API endpoint and the nature of the request. Refer to the API documentation for each endpoint to understand the required parameters for specific operations.
+Requests to ANSCER's API may require specific parameters to be included in the request payload or query string. The required parameters vary depending on the API endpoint and the nature of the request. Refer to the API documentation for each endpoint to understand the required parameters for specific operations.
 
 ### Example Request
 
@@ -83,8 +83,8 @@ Here's an example of a response of the GET request from the API:
 {
   "isActive": true,
   "_id": "635ac64ffec0c050435623ee",
-  "name": "Ashwanee Kumar Gupta",
-  "email": "ashwanee@anscer.com",
+  "name": "ANSCER ADMIN",
+  "email": "admin@anscer.com",
   "role": "developer",
   "createdBy": null,
   "createdAt": "2022-10-27T17:56:31.223Z",

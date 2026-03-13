@@ -1,7 +1,7 @@
 {
 	"openapi": "3.0.0",
 	"info": {
-		"title": "ANSCER FMS API",
+		"title": "ANSCER FMS REST API",
 		"description": "ANSCER FMS is a software solution that helps you manage your fleet of vehicles. This API allows you to interact with the ANSCER FMS system.",
 		"version": "1.0.0",
 		"contact": {

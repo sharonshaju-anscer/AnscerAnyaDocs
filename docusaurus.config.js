@@ -4,9 +4,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 // const redirects = require("./redirects");
 
 const config = {
-  title: "ANSCER ROBOTICS - ANSCER ANYA Documentation",
+  title: "ANSCER ROBOTICS - ANSCER Documentation",
   tagline:
-    "ANSCER ANYA is a software solution designed to manage and automate material transport in warehouses and industries for ANSCER ROBOTS.",
+    "ANSCER is a software solution designed to manage and automate material transport in warehouses and industries for ANSCER ROBOTS.",
   favicon: "img/favicon.ico",
 
   url: "https://anscer-anya-docs.web.app",
@@ -129,6 +129,15 @@ const config = {
       },
     ],
     [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "mqtt-api",
+        path: "api/ansceranyamqtt", // Create this folder in your project
+        routeBasePath: "mqtt-api",
+        sidebarPath: require.resolve("./mqttSidebar.js"), // You'll need to create this file
+      },
+    ],
+    [
       "docusaurus-plugin-openapi-docs",
       {
         id: "apidocs",
@@ -219,18 +228,24 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Manual",
+            label: "Robot Manual",
           },
           {
             to: "/api",
             sidebarId: "ansceranya",
-            label: "API",
+            label: "Robot API",
             position: "left",
           },
           {
             to: "/fms-api",
             sidebarId: "ansceranyafms",
-            label: "FMS API",
+            label: "FMS REST API",
+            position: "left",
+          },
+          {
+            to: "/mqtt-api",
+            sidebarId: "anscermqtt",
+            label: "FMS MQTT API",
             position: "left",
           },
           {

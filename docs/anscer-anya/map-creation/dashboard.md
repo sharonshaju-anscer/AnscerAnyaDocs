@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Mapping Dashboard
 
-Here we will be exploring the **Mapping** interface of ANSCER ANYA. It covers the various tools, controls, and features available to users for map creation. We will learn how to navigate the mapping interface and understand its different elements to make the most out of the map creation process.
+Here we will be exploring the **Mapping** interface of ANSCER. It covers the various tools, controls, and features available to users for map creation. We will learn how to navigate the mapping interface and understand its different elements to make the most out of the map creation process.
 
 Mapping dashboard consists of the following components:
 
